@@ -10,8 +10,8 @@ import com.qualcomm.robotcore.hardware.PIDFCoefficients;
 @TeleOp
 public class flywheelCal extends OpMode {
     public DcMotorEx flywheelMotor;
-    public double highVelocity=1500;
-    public double lowVelocity=900;
+    public double highVelocity=1950;
+    public double lowVelocity=1000;
     double curTargetVelocity= highVelocity;
     double F=0;
     double P=0;
